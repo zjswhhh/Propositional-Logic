@@ -16,4 +16,6 @@ c) Unicorn
 
 d) Truth-teller and liar
 
+e) More Liars and Truth-tellers
+
 Sample code for representing Propositional Logic sentences in Java provided by Prof. George Ferguson. 
