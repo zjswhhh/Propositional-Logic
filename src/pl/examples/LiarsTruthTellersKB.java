@@ -86,15 +86,15 @@ public class LiarsTruthTellersKB extends KB {
 		System.out.println("For OSSMB 83-11,using resolution method");
 		// test A
 		System.out.println("We want to test Amy:");
-		Boolean resultRE_A2 = tt.TTENTAIL(LTTKBB, alpha_A);
+		Boolean resultRE_A2 = resolution.PLresolution(LTTKBB, alpha_A);
 		System.out.println("What Amy said is:"+resultRE_A2);
 		// test B
 		System.out.println("We want to test Bob:");
-		Boolean resultRE_B2 = tt.TTENTAIL(LTTKBB, alpha_B);
+		Boolean resultRE_B2 = resolution.PLresolution(LTTKBB, alpha_B);
 		System.out.println("What Bob said is:"+resultRE_B2);
 		// test C
 		System.out.println("We want to test Cal:");
-		Boolean resultRE_C2 = tt.TTENTAIL(LTTKBB, alpha_C);
+		Boolean resultRE_C2 = resolution.PLresolution(LTTKBB, alpha_C);
 		System.out.println("What Cal said is:"+resultRE_C2);
 		
 		
